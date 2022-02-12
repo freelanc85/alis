@@ -103,7 +103,7 @@ Minimum usage
 ```
 #                         # Start the system with latest Arch Linux installation media
 # loadkeys [keymap]       # Load keyboard keymap, eg. loadkeys es, loadkeys us, loadkeys de
-# curl -sL https://raw.githubusercontent.com/picodotdev/alis/master/download.sh | bash     # Download alis scripts
+# curl -sL https://raw.githubusercontent.com/freelanc85/alis/master/download.sh | bash     # Download alis scripts
 # vim alis.conf           # Edit configuration and change variables values with your preferences (system configuration)
 # ./alis.sh               # Start installation
 ```
@@ -114,7 +114,7 @@ Advanced usage
 #                         # Start the system with latest Arch Linux installation media
 # loadkeys [keymap]       # Load keyboard keymap, eg. loadkeys es, loadkeys us, loadkeys de
 # iwctl --passphrase "[WIFI_KEY]" station [WIFI_INTERFACE] connect "[WIFI_ESSID]"          # (Optional) Connect to WIFI network. _ip link show_ to know WIFI_INTERFACE.
-# curl -sL https://raw.githubusercontent.com/picodotdev/alis/master/download.sh | bash     # Download alis scripts
+# curl -sL https://raw.githubusercontent.com/freelanc85/alis/master/download.sh | bash     # Download alis scripts
 # # curl -sL https://git.io/JeaH6 | bash                                                   # Alternative download URL with URL shortener
 # ./alis-asciinema.sh     # (Optional) Start asciinema video recording
 # vim alis.conf           # Edit configuration and change variables values with your preferences (system configuration)
@@ -130,7 +130,7 @@ After the base Arch Linux system is installed, alis can install packages with pa
 
 ```
 #                                  # After system installation start a user session
-# curl -sL https://raw.githubusercontent.com/picodotdev/alis/master/download.sh | bash     # Download alis scripts
+# curl -sLcurl -sL https://raw.githubusercontent.com/freelanc85/alis/master/download.sh | bash     # Download alis scripts
 # # curl -sL https://git.io/JeaH6 | bash                                                   # Alternative download URL with URL shortener
 # ./alis-packages-asciinema.sh     # (Optional) Start asciinema video recording
 # vim alis-packages.conf           # Edit configuration and change variables values with your preferences (packages to install)
@@ -145,7 +145,7 @@ Boot from the latest <a href="https://www.archlinux.org/download/">original Arch
 #                                  # Start the system with latest Arch Linux installation media
 # loadkeys [keymap]                # Load keyboard keymap, eg. loadkeys es, loadkeys us, loadkeys de
 # iwctl --passphrase "[WIFI_KEY]" station [WIFI_INTERFACE] connect "[WIFI_ESSID]"          # (Optional) Connect to WIFI network. _ip link show_ to know WIFI_INTERFACE.
-# curl -sL https://raw.githubusercontent.com/picodotdev/alis/master/download.sh | bash     # Download alis scripts
+# curl -sL https://raw.githubusercontent.com/freelanc85/alis/master/download.sh | bash     # Download alis scripts
 # # curl -sL https://git.io/JeaH6 | bash                                                   # Alternative download URL with URL shortener
 # ./alis-recovery-asciinema.sh     # (Optional) Start asciinema video recording
 # vim alis-recovery.conf           # Edit configuration and change variables values with your last installation configuration with alis (mainly device and partition scheme)
